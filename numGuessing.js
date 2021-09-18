@@ -26,9 +26,10 @@ function numGuessing(){
         }
         alert("宁猜对了！共用了"+ times+"次");
         ifplay = confirm("继续进行游戏嘛 =)");
+        if(!ifplay)alert("hope playing next time")
         //room = "you have used "+times+" to achieve the goal.";
         //document.getElementById("games").innerHTML=room;
     }
-    room = "hope you playing next time";
-    document.getElementById("games").innerHTML=room;
+    //room = "hope you playing next time";
+    //document.getElementById("games").innerHTML=room;
 }
