@@ -8,10 +8,10 @@ function numGuessing(){
     let ifplay = confirm("你好，"+myname+"，来玩猜字游戏嘛 (/ω＼)")
     while(ifplay)
     {
-        // alert("欢迎"+myname+"来到我的猜数游戏 (^-^)");
-        let ans = Math.random()* 100;
-        ans = Math.ceil(ans);
         let times = 0;
+        let size = prompt("请输入你的范围。eg：100，1000，10000，100000")
+        let ans = Math.random()* size;
+        ans = Math.ceil(ans);
         let guess = prompt("请输入你猜的数");
         while (guess != ans)
         {
