@@ -5,8 +5,10 @@
 function numGuessing(){
     let myname = "某人";
     let ifplay = confirm("你好，来玩猜字游戏嘛 (/ω＼)")
-    myname = prompt("宁的名字是？");
-    alert("欢迎"+myname+"!")
+    if(ifplay){
+        myname = prompt("宁的名字是？");
+        alert("欢迎"+myname+"!")
+    }
     while(ifplay)
     {
         let times = 0;
