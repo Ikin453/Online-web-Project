@@ -12,7 +12,7 @@ function numGuessing(){
     while(ifplay)
     {
         let times = 0;
-        let size = prompt("请输入你的范围。eg：100，1000，10000，100000")
+        let size = prompt("请输入你的范围,数字指最大值。eg：50，100，1000，10000，100000")
         let ans = Math.random()* size;
         ans = Math.ceil(ans);
         let guess = prompt("请输入你猜的数");
