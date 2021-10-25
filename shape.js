@@ -29,7 +29,7 @@ function figureForming(){
     function printTRI(n) {
         var i = number-n;
         while(i != 0){
-            output = output +"  ";
+            output = output +" ";
             i-=1;
         }
         var j = n*2 +1;
