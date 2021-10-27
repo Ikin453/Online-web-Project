@@ -63,7 +63,7 @@ function figureForming(){
     function printSQUARE(n) {
         var j = number;
         while(j != 0){
-            output+=accessSEQ();
+            output+=accessSEQ()+" ";
             j -= 1;
         }
         output+= "\n";
