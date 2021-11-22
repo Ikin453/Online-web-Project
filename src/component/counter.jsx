@@ -27,11 +27,11 @@ class Counter extends React.Component {
         // console.log('button');
         //if(this.state.counter<=0){
             console.log('button');
-            if(this.state.counter > 0){
+            if(this.state.toDoList.length > 0){
             var room = this.state.counter -1
             this.state.counter = room;
             room = this.state.toDoList.pop();
-            this.state.toDoList.push(this.state.counter)
+            // this.state.toDoList.push(this.state.counter)
             this.setState(this.state)
             }
         //}else{
