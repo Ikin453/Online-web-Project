@@ -26,10 +26,14 @@ class Counter extends React.Component {
     handleDecrement = ()=>{
         // console.log('button');
         //if(this.state.counter<=0){
+            console.log('button');
+            if(this.state.counter > 0){
             var room = this.state.counter -1
             this.state.counter = room;
+            room = this.state.toDoList.pop();
             this.state.toDoList.push(this.state.counter)
             this.setState(this.state)
+            }
         //}else{
             //this.setState({counter:this.state.toDoList.length-1,toDoList:this.state.toDoList.slice(0,1)})
         //}
