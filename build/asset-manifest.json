@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Online-web-Project/static/css/main.6fa9e480.chunk.css",
+    "main.js": "/Online-web-Project/static/js/main.90ceba6e.chunk.js",
+    "main.js.map": "/Online-web-Project/static/js/main.90ceba6e.chunk.js.map",
+    "runtime-main.js": "/Online-web-Project/static/js/runtime-main.7eb73bbb.js",
+    "runtime-main.js.map": "/Online-web-Project/static/js/runtime-main.7eb73bbb.js.map",
+    "static/css/2.4dca5ddc.chunk.css": "/Online-web-Project/static/css/2.4dca5ddc.chunk.css",
+    "static/js/2.5c433dd8.chunk.js": "/Online-web-Project/static/js/2.5c433dd8.chunk.js",
+    "static/js/2.5c433dd8.chunk.js.map": "/Online-web-Project/static/js/2.5c433dd8.chunk.js.map",
+    "static/js/3.ea88c3a7.chunk.js": "/Online-web-Project/static/js/3.ea88c3a7.chunk.js",
+    "static/js/3.ea88c3a7.chunk.js.map": "/Online-web-Project/static/js/3.ea88c3a7.chunk.js.map",
+    "index.html": "/Online-web-Project/index.html",
+    "static/css/2.4dca5ddc.chunk.css.map": "/Online-web-Project/static/css/2.4dca5ddc.chunk.css.map",
+    "static/css/main.6fa9e480.chunk.css.map": "/Online-web-Project/static/css/main.6fa9e480.chunk.css.map",
+    "static/js/2.5c433dd8.chunk.js.LICENSE.txt": "/Online-web-Project/static/js/2.5c433dd8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7eb73bbb.js",
+    "static/css/2.4dca5ddc.chunk.css",
+    "static/js/2.5c433dd8.chunk.js",
+    "static/css/main.6fa9e480.chunk.css",
+    "static/js/main.90ceba6e.chunk.js"
+  ]
+}
