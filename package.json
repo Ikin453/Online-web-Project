@@ -18,11 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-<<<<<<< HEAD
-    "predeploy": "npm run build", 
-=======
     "predeploy": "npm run build",
->>>>>>> 0c1d8533fd9ba5f385e7fc867e325dccfff5259b
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -42,11 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
-=======
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
->>>>>>> 0c1d8533fd9ba5f385e7fc867e325dccfff5259b
   }
 }
